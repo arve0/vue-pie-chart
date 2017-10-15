@@ -55,7 +55,7 @@ if (process.env.NODE_ENV === 'production') {
     libraryTarget: 'umd',
     library: 'vue-pie-chart',
     umdNamedDefine: true,
-    filename: 'vue-pie-chart.min.js'
+    filename: 'vue-pie-chart.js'
   }
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
