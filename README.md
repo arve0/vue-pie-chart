@@ -7,6 +7,8 @@
 
 [Demo](https://arve0.github.io/vue-pie-chart/).
 
+2.9 kB gziped, no external dependencies.
+
 ## Install
 ```sh
 npm i vue-pie-chart

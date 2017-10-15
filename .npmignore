@@ -1,0 +1,5 @@
+index.html
+dist/demo.js
+dist/demo.js.map
+*.png
+webpack.config.js
