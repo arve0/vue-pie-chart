@@ -17,7 +17,9 @@ npm i vue-pie-chart
 ## Usage
 Register component:
 ```js
-import PieChart from 'vue-pie-chart'
+const PieChart = require('vue-pie-chart')
+// or import .vue-file, if you have vue-loader
+import PieChart from 'vue-pie-chart/src/PieChart.vue'
 
 // register globally
 Vue.component('pie-chart', PieChart)
