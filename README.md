@@ -13,7 +13,7 @@ npm i vue-pie-chart
 ```
 
 ## Usage
-Register as global component:
+Register component:
 ```js
 import PieChart from 'vue-pie-chart'
 
@@ -42,26 +42,26 @@ Then use it in template, here shown with default attributes:
 ```
 
 ### Attributes
-#### ratio: `Number`
+#### `ratio: number`
 Size of pie chart. `1` is a cirle, `0.5` is a half circle. Pie will rotate clock-wise if positive, and counter-clock-wise if negative. Wraps when absolute value is above 1.
 
-#### percent: `Number`
+#### `percent: number`
 Size of pie chart. `100` is a cirle, `50` is a half circle. Pie will rotate clock-wise if positive, and counter-clock-wise if negative. Wraps when absolute value is above 100. If both percent and ratio is given, ratio is used.
 
-#### stroke-width: `Number`
+#### `stroke-width: number`
 Size of bar. Should be above 0 and below 10. 10 will completely fill the pie to the center.
 
-#### label: `String`
+#### `label: string`
 Text inside pie chart. Defaults to percent if not given.
 
-#### label-small: `String`
+#### `label-small: string`
 Small label below main label. Defaults to empty string if not given.
 
-#### color: `String`
+#### `color: string`
 Color of pie chart.
 
-#### opacity: `Number`
-Opacity of pie chart.
+#### `opacity: number`
+Opacity of pie chart. `0` is transparent, `1` is opaque.
 
 ## Dev Setup
 
