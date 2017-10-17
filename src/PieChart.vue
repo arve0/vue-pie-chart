@@ -1,5 +1,12 @@
 <template>
   <svg :viewBox=viewBox>
+    <circle
+      cx=0
+      cy=0
+      r=1
+      stroke="#fcfcfc"
+      :stroke-width="strokeWidth / 5"
+    />
     <path
       v-if=!circle
       :d=path
